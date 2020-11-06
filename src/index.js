@@ -5,7 +5,7 @@
 
 import http from 'http';
 import express from 'express';
-import ws from 'ws';
+import ws from 'uWebSockets.js';
 
 import websocketUrl from './websocket-url';
 import addWsMethod from './add-ws-method';

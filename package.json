@@ -1,5 +1,5 @@
 {
-  "name": "express-ws",
+  "name": "express-uws",
   "version": "5.0.0",
   "description": "WebSocket endpoints for Express applications",
   "main": "index",
@@ -20,7 +20,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "esm": "^3.0.84",
-    "ws": "^6.0.0"
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.8.0"
   },
   "peerDependencies": {
     "express": "^4.0.0 || ^5.0.0-alpha.1"
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HenningM/express-ws"
+    "url": "https://github.com/kobari/express-ws"
   },
   "keywords": [
     "express",
-    "ws",
+    "uws",
     "websocket"
   ],
   "bugs": {
